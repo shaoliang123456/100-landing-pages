@@ -1,27 +1,27 @@
-# Daylight Power 网站拆解
+# Daylight 
 
 原站链接：<https://godaylight.com/?ref=land-book.com>
 
-Daylight 的首页一打开，就是一整块金红渐变的动态背景，带有强烈光晕效果，象征太阳的光辉。
-正中是白色的 Daylight 标志，与高饱和背景形成强对比，先吸引注意力，随后 Logo 缩小、淡出，留下一块持续流动的动效区域。
+Daylight 的首页一打开，就是一整块金红渐变的动态背景，带有强烈光晕效果，象征太阳的光辉，让人沉浸其中，仿佛灵魂出窍的感觉，
+数秒后开始缩小，正中是白色的 Daylight 标志，与高饱和背景形成强对比，先吸引注意力，随后 Logo 缩小、淡出，留下一块持续流动的动效区域。
 
 整体是一个 3×3 的不对称 Grid 网格：右侧占 6 格，左侧占 3 格，接近黄金比例的分配，让主视觉和信息区既有秩序又不死板。
 
 - 右侧某一格放动效图，是视觉重心；
 - 动效图的上、下、右三侧，用白色小字号文字 + 图标呈现关键信息：
-	- 上方是性能数据（如 Kw generated）；
-	- 下方是最低工作温度，配雪花图标（Thermostat）；
-	- 右侧是 Backup stored 的进度条；
-- 左侧三格中，中间一格是核心 CTA 标语：
-	- “Join the Daylight network”
-	- “Save on energy. Earn rewards. Stay powered when the grid goes down.”
+  - 上方是性能数据（ KW generated）；
+  - 下方是最低工作温度，配雪花图标（Thermostat）；
+  - 右侧是 Backup stored 的进度条；
+- 左侧三格中，中间一格是核心标语：
+  - *Join the Daylight network*
+  - *Save on energy. Earn rewards. Stay powered when the grid goes down*
 
 这部分使用两套字体和字号（如 Feature Deck 与 Aeonik Pro），通过大小、粗细对比来划分主次。
 左下方是一组并排按钮，大小一致、轻微圆角：一个白底，一个金黄底，对应不同层级的行动按钮。
-所有网格之间用细白线切分，进一步强化了“版心内的秩序感”。
+所有网格之间用细白线切分。
 
 背景主视觉是一座林中红砖小屋，黄昏的落日光线打在屋顶的太阳能板上。
-红砖 + 森林营造出北欧乡野感，配合光伏板和 UI 动效，整体色调控制在金黄、红和白之间，兼具温暖气氛与现代科技感。
+红砖 + 森林营造出北欧乡野感，配合光伏板和 UI 动效，我不是很清楚如何实现，整体色调控制在金黄、红和白之间，兼具温暖气氛与现代科技感。
 
 ## 中段九宫格：文案 + 产品图
 
@@ -38,11 +38,16 @@ Daylight 的首页一打开，就是一整块金红渐变的动态背景，带�
 - 一台储能柜产品；
 - 一部 iPhone，展示 Daylight App 中节能和费用节省的模拟界面。
 
-对应的文案结构非常有意思：动词用 small caps，这是一种css排版中的设计方法，字母大写但是小一号，其余部分用大号加粗：
+对应的文案结构非常有意思：动词用 **small caps**，这是一种css排版中的设计方法，字母大写但是小一号，其余部分用大号加粗，small caps 只有在网页中支持，但是markdown尚不支持
 
-- SAVE（small caps）Power your home for less
-- PROTECT（small caps）Keep the lights on with battery backup
-- EARN（small caps）Get rewarded for using Daylight
+SAVE
+Power your home for less
+
+PROTECT
+Keep the lights on with battery backup
+
+EARN
+Get rewarded for using Daylight
 
 小字动词 + 大字描述句的组合，让浏览时形成非常清晰的阅读节奏：
 先被大字吸引，再意识到左侧的小字是“动作标签”，文字和图片做了一一呼应。
@@ -54,10 +59,12 @@ Daylight 的首页一打开，就是一整块金红渐变的动态背景，带�
 这一页通过三种层级的文字节奏来说明产品模式：
 
 1. HOW DAYLIGHT WORKS —— 作为栏目标题；
+
 2. Two ways to power your home. One powerful network. —— 大字号主标题；
+
 3. 下面一段小字正文，用正常大小写描述使用方式：
 
-	 Choose a monthly energy subscription or purchase your system outright. Both options include an oversized backup battery from Daylight at no additional cost. You create enough power for you, and share surplus with the grid.
+   *Choose a monthly energy subscription or purchase your system outright. Both options include an oversized backup battery from Daylight at no additional cost. You create enough power for you, and share surplus with the grid.*
 
 底部有一个统一风格的按钮：白底黑字，Hover 时反转为黑底白字，形成“白天 / 夜晚”视觉隐喻。
 
@@ -70,9 +77,9 @@ Daylight 的首页一打开，就是一整块金红渐变的动态背景，带�
 - 底层是奶白色大底；
 - 上层是较深色的内容卡片，四周留出明显的 padding，营造出层次感和版心边界；
 - 左侧是三行分级文字：
-	- STEP 1 —— 小字 small caps；
-	- Join the network —— 大号主标题；
-	- TWO WAYS TO CONNECT —— 再次使用全大写 small caps 做副标题标签。
+  - STEP 1 —— 小字 small caps；
+  - Join the network —— 大号主标题；
+  - TWO WAYS TO CONNECT —— 再次使用全大写 small caps 做副标题标签。
 
 正文部分解释两种接入方式：
 
@@ -132,12 +139,12 @@ Subscribe to get solar + battery backup with no upfront costs. Daylight owns the
 
 - STEP 1、STEP 2 等步骤标题；
 - HOW DAYLIGHT WORKS、TWO WAYS TO CONNECT 等栏目标签；
-- save / protect / earn 这些动词小字；
+- SAVE/ PROTECT/ EARN这些动词小字；
 - 以及一些较短、信息密度高的提示句。
 
 它们的典型特征是：
 
-- 全大写或全部小写，但字号明显小于主标题；
+- 全大写,但字号明显小于主标题；
 - 行高和字距略紧，整体更“压扁”；
 - 常常位于主标题上方或左侧，像 UI 里的“小标签 / tag”。
 
@@ -151,7 +158,6 @@ Subscribe to get solar + battery backup with no upfront costs. Daylight owns the
 
 - CTA 按钮在多个页面重复出现（首页、HOW DAYLIGHT WORKS、步骤页、地图页等），文案有所变化，但样式体系高度统一，有助于强化行动意图；
 - 按钮常用白底黑字 + Hover 黑底白字的反转，既简单，又与“日夜切换”的品牌意向呼应；
-- 手机、Logo、房子与社区的动效都强调“从小到大、从一点到一片”的成长感，与“你家发电、社区受益”的叙事主线一致。
 
 ## 综合感想
 
